@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"backg",
+				"background-image\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"text",
+				"text-shadow\tproperty"
+			],
+			[
+				"margint",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"t",
+				"transform-style\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"tex",
+				"text-transform\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"p",
+				"padding-top\tproperty"
+			],
+			[
+				"ea",
+				"ease-out\ttransition-timing-function"
+			],
+			[
+				"e",
+				"step-end\ttransition-timing-function"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"cl",
+				"clients"
+			],
+			[
+				"na",
+				"navbarResponsive"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"ma",
+				"max-width\tproperty"
+			],
+			[
+				"borde",
+				"border-top\tproperty"
+			],
+			[
+				"j",
+				"jpg"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"bord",
+				"border-color\tproperty"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"col-m",
+				"col-md-4"
+			],
+			[
+				"fa-",
+				"fa-3x"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground-color"
+			],
+			[
+				"lan",
+				"Landing"
+			],
+			[
+				"boo",
+				"bookings"
+			],
+			[
+				"weddin",
+				"Weddings"
+			],
+			[
+				"nav",
+				"navbar-toggler"
+			],
+			[
+				"acce",
+				"accessToken"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/katsiez/Desktop/Nuno Theme Starter Files/css/fixed.css",
+		"/Users/katsiez/Desktop/Milestone Project:User centric /image/guy.jpg",
+		"/Users/katsiez/Desktop/Milestone Project:User centric /image/girl.jpg"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bluesofa.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
