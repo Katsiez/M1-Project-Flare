@@ -1,9 +1,82 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
+body {
+	overflow-x: hidden; /*--fixed content to stay in the browser window and not overflow--*/
+	font-family: 'Lato' , sans-serif;
+	color: black;
+	background-color: white; /*--just for now--*/
 }
 
+/*---Navigation--*/
 
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background-color: rgba(0, 0, 0, 0.6)!important;/*--40% transparency with 0.6--*/
+}
 
 .navbar-brand img {
-  height: 4.5rem;
+  height: 48px; /*--fix this, shouldn't be in rems?--*/
 }
+.navbar-nav li {
+	padding-right: .7rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: grey;
+}
+
+/*---Landing Page Section--*/
+.home-inner {
+	background-image: url(../img/copper_wood.jpeg);
+	position: fixed;
+	display: table;
+	top: 0;
+  	left: 0;
+	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+}
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 50%;
+	z-index: 1; /*--to always display the caption on top of the background image--*/
+	color: white;
+	text-transform: uppercase;
+}
+.caption h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .9rem white;
+	padding-bottom: 1rem; /*--added padding between the h1 and h3--*/
+}
+.caption h3 {
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem white;
+	padding-bottom: 1.5rem;
+}
+.btn-lg {
+	border-width: medium;
+	border-radius: 1;
+	padding: .5rem 1.5rem;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
