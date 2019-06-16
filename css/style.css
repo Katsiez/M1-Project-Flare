@@ -69,6 +69,7 @@ body {
 	color: white;
 	text-transform: uppercase;
 }
+
 .caption h1 {
 	font-size: 3.5rem;
 	font-weight: 700;
@@ -76,16 +77,25 @@ body {
 	text-shadow: .1rem .1rem .9rem white;
 	padding-bottom: 1rem; /*--added padding between the h1 and h3--*/
 }
+
 .caption h3 {
 	font-size: 2rem;
 	text-shadow: .1rem .1rem .5rem white;
 	padding-bottom: 1.5rem;
 }
+
 .btn-lg {
 	border-width: medium;
 	border-radius: 1;
 	padding: .5rem 1.5rem;
 	font-size: 1.5rem;
+}
+
+/*---Furniture section--*/
+
+.furniture-heading {
+	text-align: center;
+	text-transform: uppercase;
 }
 
 
