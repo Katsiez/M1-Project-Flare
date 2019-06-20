@@ -141,15 +141,23 @@ body {
 }
 /*---COLLECTIONS---*/
 .card-body {
-	background-color: transparent;
-	width: 100%;
-	border-width: 1rem;
-	padding: 1rem 1rem 1rem;
-	margin: 1rem 1rem;
+	margin: .2rem;
+	background-color: #CAB8AA;
+	opacity: 7;
+	width: auto;
+	border-width: .5rem;
+	padding: .2rem .2rem .2rem;
+	margin: .2rem .2rem;
+
 }
+
  h4 {
+ 	font-size: 1.5rem;
 	text-transform: uppercase;
 	text-align: center;
+	padding: .2rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 	color: white;
 	text-shadow: .1rem .1rem .8rem;
 	paint-order: 1rem;
@@ -159,9 +167,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
-  width:200px;
-  height:200px;
-  border-radius: 10%;
+  padding: .2rem .2rem .2rem;
+  width:180px;
+  height:180px;
+  border-radius: 3%;
+}
+.hover figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 /*---FURNITURE--*/
 
@@ -287,12 +306,12 @@ blockquote svg.svg-inline--fa {
 /*---FOOTER|CONTACT SECTION---*/
 footer {
   background-color: #E0E5EC;
-  padding: 2rem 0 2rem; /*--fix this, footer take too much realestate--*/
+  padding: 1rem 0 0; /*--fix this, footer take too much realestate--*/
   margin-top: 1rem: 
 }
 footer img {
   height: auto;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 .offset p, strong {
   color: white;
@@ -311,7 +330,7 @@ hr.socket {
   margin-top: 3rem;
 }
 
-/*---BOOTSTRAP---*/
+/*---BOOTSTRAP FIXES---*/
 /*--- Extra Bootstrap Column Padding --*/
 [class*="col-"] {
   padding: 1rem;
