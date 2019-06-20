@@ -139,6 +139,30 @@ body {
 	transition-duration: .2s;
 	transition-timing-function: flare;
 }
+/*---COLLECTIONS---*/
+.card-body {
+	background-color: transparent;
+	width: 100%;
+	border-width: 1rem;
+	padding: 1rem 1rem 1rem;
+	margin: 1rem 1rem;
+}
+ h4 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	text-shadow: .1rem .1rem .8rem;
+	paint-order: 1rem;
+}
+.collapse img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width:200px;
+  height:200px;
+  border-radius: 10%;
+}
 /*---FURNITURE--*/
 
 .jumbotron {
