@@ -80,7 +80,7 @@
   </a>
 </p>
 <div class="collapse" id="collections">
-  <div class="col-12 card card-body">
+  <div class="col-md-12 card card-body">
 
     <h4>Chairs</h4>
     <div class="col-md-12">
@@ -112,23 +112,25 @@
     <div class="col-md-12">
     	<div class="hover">
     	<figure>
-    	<img src="img/shelving_system.jpg" width="100" height="100" align="left"/>
-    	<img src="img/shelf.jpg" width="100" height="100" align="left"/>
-    	<img src="img/art_shelf.jpg" width="100" height="100" align="left"/>
-    	<img src="img/shelving.jpg" width="100" height="100" align="left"/>
-    	<img src="img/birch_shelf.jpg" width="100" height="100" align="left"/>
+    	<img src="img/shelving_system.jpg" width="100" height="100"align="left"/>
+    	<img src="img/shelf.jpg" width="100" height="100"align="left"/>
+    	<img src="img/art_shelf.jpg" width="100" height="100"align="left"/>
+    	<img src="img/shelving.jpg" width="100" height="100"align="left"/>
+    	<img src="img/birch_shelf.jpg" width="100" height="100"align="left"/>
     </figure>
     </div>
 </div>
 
        <h4>Desks</h4>
-    <div class="col-md-12">
+    <div class="col-md-12 horizontal">
     	<div class="hover">
     	<figure>
-    	<img src="img/desk_wood.jpg" width="100" height="100" align="left"/>
-    	<img src="img/orange_sofa.jpeg" width="100" height="100" align="left"/>
-    	<img src="img/light_sofa.jpeg" width="100" height="100" align="left"/>
-    	<img src="img/minimal_blue_sofa.jpeg" width="100" height="100" align="left"/>
+    	<img src="img/wooddesk.jpg" width="100" height="100" align="left"/>
+    	<img src="img/desk_.jpg" width="100" height="100" align="left"/>
+    	<img src="img/minimal_desk.jpg" width="100" height="100" align="left"/>
+    	<img src="img/desk_chair.jpg" width="100" height="100" align="left"/>
+    	<img src="img/cooldesk.jpg" width="100" height="100" align="left"/>
+
     </figure>
     </div>
 
@@ -277,12 +279,12 @@
 		<div class="col-md-6 clients"><!--md-6 because there are only 2 testimonies, but I still want them to be lined with the rest of the page so I gave it the md-4 class, too.-->
 		<div class="row">
 			<div class="col-md-4">
-		<img src="img/guy_minimalistic.jpeg">
+		<img src="img/girl_minimalistic.jpeg">
 			</div>
 		<div class="col-md-8">
 	<blockquote>
 		<i class="fas fa-quote-left"></i>
-		Testimonial from the first customer and their opinion of our product. They ordered many items online, have had it for years and just love the quality. Write some examples of what they ordered here. 
+		When I first moved out of my parents' home, I really wanted to collect timeless pieces that will follow me and my future family throughout. It has been five years now since I obsessively started collecting, the quality of .flare furniture is impecable. I can't wait to recieve my newest order!
 		<hr class="testimonials-hr"><!--This class is given so that I can later style the blockquotes&change their color if wanted.-->
     	<cite>&#8212; Malinda, a loyal customer</cite>
 			</blockquote>
@@ -293,12 +295,12 @@
 		<div class="col-md-6 clients">
 		<div class="row">
 			<div class="col-md-4">
-		<img src="img/girl_minimalistic.jpeg">
+		<img src="img/guy_minimalistic.jpeg">
 			</div>
 		<div class="col-md-8">
 	<blockquote>
 		<i class="fas fa-quote-left"></i>
-		Testimonial from the second customer and their opinion of our product. They ordered many items online, have had it for years and just love the quality. Write some examples of what they ordered here. 
+		The design and the quality of woods is what initially caught my eye. I have become closest of friends with the owners, they not only know my taste, but always deliver in agreed time and with outstanding quality. Some of my pieces have been around longer than my friends!
 		<hr class="testimonials-hr"><!--This class is given so that I can later style the blockquotes&change their color if wanted.-->
 		<cite>&#8212; Johan, a loyal customer</cite>
 		</blockquote>
@@ -310,23 +312,18 @@
 
 </div><!---END JUMBOTRON--->
 
-<!--<div class="col-12 narrow text-center">
-	<p class="lead">Have a dream piece in mind?</p>
-	<a class="btn btn-secondary btn-md" href="#" target="_blank">Request Estimate</a>
-</div><!--><!--Button should either open up a contact form or be replaced by it-->
 
  <!---CONTACT FORM--->
+ <section class="jumbotron-scroll" id="contact">
 <div class="container">
-	<div style="text-align: center">
-		<h2>Have a dream piece in mind?</h2>
-		<p class="lead">Get in touch with us and tell us more!</p>
+		<div style="text-align:center">
+		<h2 id="title">Have a dream piece in mind?</h2>
+		<p id="para">Get in touch with us and tell us more!</p>
 	</div>
-	<div class="row">
-		<div class="column">
-			<img src="img/contact.jpeg" style="width:100%">
-		</div>
+	<div class="row contact">
+		
   	<div class="column">
-  		<form action="/action_page.php">
+  		<form id="contact-form">
   			<label for="firstname">First name</label>
   			<input type="text" id="firstname" name="firstname" placeholder="Please type your first name">
   			<label for="lastname">Last name</label>
@@ -340,26 +337,24 @@
         </select>
         <label for="subject">Your message here</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="btn btn-default">
       </form>
     </div>
   </div>
 </div>
 </div>
 </div>
-</div>
-<!---END TESTIMONIALS SECTION--->
+</section>
 
-<!---CONTACT SECTION--->
+
+<!---FOOTER SECTION--->
 <div id="contact" class="offset">
 <footer>
 <div class="row justify-content-center">	
 
-	<div class="col-md-5 text-center">
-		<a href="#home" target="home"><img width="200px" src="logo/logo_transparent_natural.png"></a>
-	<p>Text about the company and how they use natural materials</p>
-	<strong>Get in touvh with us</strong>
-	<strong>Get in touch with us</strong>
+	<div class="col-xs-12 text-center">
+		<a href="#home" target="home"><div style="text-align: right"><img width="100px" src="logo/logo_transparent_natural.png"/></div></a>
+	<div style="text-align: left"><p><strong>Get in touch with us</strong>
 		<p>By phone or<br>Email</p>
 		<a href="#" target="_blank"><i class="fas fa-phone"></i></a>
 			<!--for your icons-->
