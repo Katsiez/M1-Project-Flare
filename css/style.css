@@ -354,11 +354,12 @@ blockquote svg.svg-inline--fa {
 /*---FOOTER|CONTACT SECTION---*/
 footer {
   border-color: transparent;
+  color: black;
   display: block;
   background-color: white;
   text-align: center;
-  padding: 0; /*--fix this, footer take too much realestate--*/
-  margin-bottom: 0: 
+  padding: 2rem 0 2rem;
+  margin-top: 1rem: 
 }
 footer img {
   height: auto;
@@ -368,23 +369,54 @@ footer img {
   color: white;
   text-align: center;
 }
+.footer_text {
+	font-size: .8rem;
+	font-weight: 400;
+	margin: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+.footer_h3 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #A9D4D2;
+	font-weight: 500;
+	font-size: 1rem;
+}
+.address {
+	text-align: center;
+	font-size: .7rem;
+	text-transform: uppercase;
+}
 .paragraph {
 	text-align: left;
 }
 footer a {
 size: 48px;
 margin: 1.2rem .5rem 0 0;
+color: black;
+}
+footer a:hover{
+size: 48px;
+margin: 1.2rem .5rem 0 0;
+color: #A9D4D2;
+}
+.feature svg.svg-inline--fa {
+	font-size: 4rem;
+	color: black;
+	margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa and :hover {
 color: white;
-margin: 1.2rem .5rem 0 0;
+
 }
 
-/*---hr.socket {
+hr.socket {
   width: 100%;
-  border-top: .2rem solid white;
+  border-top: .2rem 
+  color: #A9D4D2;
   margin-top: 3rem;
-}---*/
+}
 
 /*---BOOTSTRAP FIXES---*/
 /*--- Extra Bootstrap Column Padding --*/
@@ -483,13 +515,69 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-
+/*---MEDIA QUERIES---*/
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+
+  @media (max-width: 767px) {
+ .caption h1 {
+	font-size: 3.8rem;
+	letter-spacing: .3rem;
+	padding-bottom: 1rem; 
+}
+
+.caption h3 {
+	font-size: 1rem;
+	padding-bottom: 1.4rem;
+}
+
+.btn-lg {
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+}
+  }
+
+  /* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	.furniture p {
+  font-size: 1.1rem;
+  display: block;
+}
+.materials p {
+  	font-size: 1.1rem; 
+  	display: block;
+}
+/*--TESTIMONIALS|CLIENTS--*/
+.testimonials {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-right: 2rem;
+ 
+}
+.clients img {
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+.row {
+  font-size: 1rem;
+  color: black;
+  text-align: right;
+  margin: 3rem;
+  padding-left: 2rem;
+}
+}
 
 
 
