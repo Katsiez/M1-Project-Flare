@@ -146,7 +146,8 @@ body {
 
 /*---ABOUT--*/
 #about {
-	background-color: auto;
+	background-image:auto;
+	align-items: left;
 }
 .narrow {
 	width: 75%;
