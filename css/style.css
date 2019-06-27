@@ -145,10 +145,28 @@ body {
 }
 
 /*---ABOUT--*/
+.offset_about h1 {
+  color: #996B39;
+  font-size: 1rem;
+  letter-spacing: .5rem;
+  font-weight: 700; 
+}
+.offset_about p {
+  color: #666231;
+  font-weight: 500;
+  
+}
+.offset_about:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
 #about {
 	background-image:auto;
 	align-items: left;
 }
+
 .narrow {
 	width: 75%;
 	margin: 1.5rem auto;
@@ -181,21 +199,21 @@ body {
 	background-color: white;
 	opacity: 7;
 	width: auto;
-	border-color: grey;
-	border-width: .5rem;
+	border-color: #666231;
+	border-width: .3rem;
 	padding: .2rem .2rem .2rem;
 	margin: .2rem .2rem;
 
 }
 
  h4 {
- 	font-size: 1.5rem;
+ 	font-size: 1.6rem;
 	text-transform: uppercase;
 	text-align: center;
 	padding: .2rem;
 	margin-top: 2rem;
 	margin-bottom: 1rem;
-	color: grey;
+	color: #996B39;
 	text-shadow: .1rem .1rem .8rem;
 	paint-order: 1rem;
 }
@@ -220,12 +238,29 @@ body {
 	filter: grayscale(0);
 }
 /*---FURNITURE--*/
+.offset_furniture h1 {
+  color: #996B39;
+  font-size: 1rem;
+  letter-spacing: .5rem;
+  font-weight: 700; 
+}
+.offset_furniture p {
+  color: #666231;
+  font-weight: 500;
+  
+}
+.offset_furniture:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
 
-.jumbotron {
+.jumbotron_furniture {
 	margin-bottom: 0;
 	padding: 2rem 0 3.5rem;
 	border-radius: 0;
-	background-image: url(../img/granit.jpeg);
+	background-image: url(../img/birch_chair.jpg);
 	opacity: 5;
 }
 
@@ -235,7 +270,7 @@ body {
 	margin-bottom: 1.4rem;
 	text-align: center;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 	text-shadow: .1rem .1rem .8rem;
 	paint-order: 1rem;
 }
@@ -257,11 +292,12 @@ body {
 	/*-fix this, affects the paragraphs too?-*/
 	text-transform: uppercase;
 	color: #3D3C42;
-	text-shadow: .1rem .1rem .8rem;
+	font-weight: 700;
+	text-shadow: 1rem .5rem 1rem;
 	paint-order: 1rem;
 }
 .feature p {
-	color: white;
+	color: #4A311E;
 	text-transform: none;
 	text-shadow: 0, 0, 0;
 	text-align: center;
@@ -317,6 +353,13 @@ body {
   	font-size: 1.1rem; 
 }
 /*--TESTIMONIALS|CLIENTS--*/
+.jumbotron_testimonials {
+	margin-bottom: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+	background-image: url(../img/granit.jpeg);
+	opacity: 5;
+}
 .testimonials {
   font-size: 2rem;
   font-weight: 500;
@@ -367,7 +410,7 @@ footer img {
   margin: 0;
 }
 .offset p, strong {
-  color: white;
+  color: black; /*-#845523;-*/
   text-align: center;
 }
 .footer_text {
@@ -409,8 +452,7 @@ color: #A9D4D2;
 }
 footer svg.svg-inline--fa and :hover {
 color: white;
-
-}
+} /*---not working!!!---*/
 
 hr.socket {
   width: 100%;
@@ -457,7 +499,7 @@ label {
 	margin-bottom: 0;
 	padding: 2rem 0 3.5rem;
 	border-radius: 0;
-	background-image: url(../img/cozy.jpeg);
+	background-image: url(../img/blue_pillows.jpeg);
 	opacity: 7!important;
 	background-size: cover;
 }
