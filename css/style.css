@@ -33,7 +33,7 @@ body {
 	font-weight: 700;
 	font-size: .9rem;
 	letter-spacing: .1rem;
-	background-color: rgba(255, 255, 255, 0.5)!important;/*--50% transparency with 0.5--*/
+	background-color: rgba(116, 140, 114, 0.36)!important;/*--50% transparency with 0.5--*/
 	position: left;
 }
 .navbar-brand img {
@@ -43,12 +43,12 @@ body {
 	padding-right: .7rem;
 }
 .navbar-light .navbar-nav .nav-link {
-	color: #3D3C42;
+	color: black;
 	padding-top: .8rem;
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover {
-	color: rgb(255, 255, 255)!important;
+	color: white!important;
 	transition-timing-function: ease-out;
 }
 
@@ -258,10 +258,23 @@ body {
 
 .jumbotron_furniture {
 	margin-bottom: 0;
-	padding: 2rem 0 3.5rem;
+	padding: 1rem 0 2rem;
 	border-radius: 0;
-	background-image: url(../img/birch_chair.jpg);
-	opacity: 5;
+	background-image: url(../img/nice_chair.jpg);
+	background-repeat: no-repeat;
+    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;	
+
+
+	/*-background-size:100%;
+	background-repeat: no-repeat;
+	opacity: 5;-*/
 }
 
 .furniture-heading {
@@ -270,21 +283,21 @@ body {
 	margin-bottom: 1.4rem;
 	text-align: center;
 	text-transform: uppercase;
-	color: black;
+	color: white;
 	text-shadow: .1rem .1rem .8rem;
 	paint-order: 1rem;
 }
 .heading-underline {
 	width: 3rem;
 	height: .2rem;
-	background-color: #3D3C42;
+	background-color: white; /*-#3D3C42;-*/
 	margin: 0 auto 2rem; /*--heading-underline applies to all sections, for now.--*/
 }
 .furniture p {
   font-size: 1.1rem;
 }
 .feature {
-	color: #3D3C42;
+	color: white;/*-#3D3C42;-*/
 	text-transform: uppercase;
 }
 .feature h3 {
@@ -305,6 +318,23 @@ body {
 }
 
 /*--MATERIALS|FABRICS--*/
+.offset_materials h1 {
+  color: #8C8674;
+  font-size: 1rem;
+  letter-spacing: .5rem;
+  font-weight: 500; 
+}
+.offset_materials p {
+  color: #3D3C42;
+  font-weight: 600;
+}
+.offset_materials:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
 .fixed {
 	background-image: url(../img/timber_cotton.jpg);
 	z-index: -1;
@@ -336,14 +366,14 @@ body {
 	font-weight: 500;
 	margin-bottom: 1.4rem;
 	text-transform: uppercase;
-	color: #D8E9F1;
+	color: white;/*-#D8E9F1;-*/
 	text-shadow: .1rem .1rem .8rem;
 	paint-order: 1rem;
 }
 .materials h3 {
   	font-size: 1rem;
   	text-transform: uppercase;
-  	color: #A9D4D2;
+  	color: white;/*-#A9D4D2;-*/
   	text-shadow: .1rem .1rem .8rem;
   	paint-order: 1rem;
 }
@@ -477,21 +507,26 @@ margin-right: 0px!important;
 /*--CONTACT FORM--*/
 form {
   box-sizing: border-box;
+  background-color: auto;
   background-size: cover;
 }
 
 #title {
 	text-shadow: .1rem .1rem .8rem;
 	color: #90A1A8;
+	font-weight: 800;
+	font-size: 2.5rem;
 	text-align: center;
 }
 #para {
 	text-shadow: .1rem .1rem .8rem;
 	color: white;
+	font-weight: 700;
 	text-align: center;
 }
 label {
 	color: white;
+	font-weight: 600;
 	text-shadow: .1rem .1rem .8rem;
 	font-size: 1.2rem;
 }
@@ -499,7 +534,7 @@ label {
 	margin-bottom: 0;
 	padding: 2rem 0 3.5rem;
 	border-radius: 0;
-	background-image: url(../img/blue_pillows.jpeg);
+	background-image: url(../img/dark_pillows.jpeg);
 	opacity: 7!important;
 	background-size: cover;
 }
