@@ -78,18 +78,18 @@ body {
 	text-transform: uppercase;
 }
 .caption h1 {
-	font-size: 2.8rem;
+	font-size: 3.8rem;
 	font-weight: 700; /*--sourced from Google fonts and related to 'Lato'--*/
 	letter-spacing: .3rem;
 	text-shadow: .1rem .1rem .8rem;
-	padding-bottom: 1rem; /*--added padding between the h1 and h3--*/
+	/*-padding-bottom: 1rem; /*--added padding between the h1 and h3--*/
 	paint-order: 1rem;
 }
 
 .caption h3 {
 	font-size: 1rem;
 	text-shadow: .1rem .1rem .5rem;
-	padding-bottom: 1.4rem;
+	padding-bottom: 1.6rem;
 }
 
 .btn-lg {
@@ -109,7 +109,7 @@ body {
 }
 .home-wrap {
 	 clip: rect(0, auto, auto, 0);
-	 position: absolute; /*--ABOUT section needs its OWN SECTION!!?--*/
+	 position: absolute; 
 	 top: 0;
 	 left: 0;
 	 width: 100%;
@@ -152,7 +152,7 @@ body {
   font-weight: 700; 
 }
 .offset_about p {
-  color: #3E615D;
+  color: #3c5f5b;
   font-weight: 500;
   
 }
@@ -244,6 +244,7 @@ body {
   letter-spacing: .5rem;
   font-weight: 700; 
 }
+
 .offset_furniture p {
   color: #666231;
   font-weight: 500;
@@ -261,6 +262,7 @@ body {
 	padding: 1rem 0 2rem;
 	border-radius: 0;
 	background-image: url(../img/green_sofa.jpeg);
+	opacity: 3;
 	background-repeat: no-repeat;
     object-fit: cover;
 	width: 100%;
@@ -283,14 +285,14 @@ body {
 	margin-bottom: 1.4rem;
 	text-align: center;
 	text-transform: uppercase;
-	color: white;
+	color: #cc8150;
 	text-shadow: .1rem .1rem .8rem;
 	paint-order: 1rem;
 }
-.heading-underline {
+.heading-underline_furniture {
 	width: 3rem;
 	height: .2rem;
-	background-color: white; /*-#3D3C42;-*/
+	background-color: #cc8150; /*-#3D3C42;-*/
 	margin: 0 auto 2rem; /*--heading-underline applies to all sections, for now.--*/
 }
 .furniture p {
@@ -304,13 +306,13 @@ body {
 	font-size: 1rem;
 	/*-fix this, affects the paragraphs too?-*/
 	text-transform: uppercase;
-	color: #3D3C42;
+	color: #cc8150;
 	font-weight: 700;
 	text-shadow: 1rem .5rem 1rem;
 	paint-order: 1rem;
 }
 .feature p {
-	color: #C9A78E;
+	color: white;
 	text-transform: none;
 	text-shadow: 0, 0, 0;
 	text-align: center;
@@ -323,6 +325,12 @@ body {
   font-size: 1rem;
   letter-spacing: .5rem;
   font-weight: 500; 
+}
+.heading-underline_materials {
+	width: 3rem;
+	height: .2rem;
+	background-color: white; /*-#3D3C42;-*/
+	margin: 0 auto 2rem; /*--heading-underline applies to all sections, for now.--*/
 }
 .offset_materials p {
   color: #3D3C42;
@@ -383,6 +391,12 @@ body {
   	font-size: 1.1rem; 
 }
 /*--TESTIMONIALS|CLIENTS--*/
+.heading-underline_clients {
+	width: 3rem;
+	height: .2rem;
+	background-color: white; /*-#3D3C42;-*/
+	margin: 0 auto 2rem; /*--heading-underline applies to all sections, for now.--*/
+}
 .jumbotron_testimonials {
 	margin-bottom: 0;
 	padding: 2rem 0 3.5rem;
@@ -534,7 +548,7 @@ label {
 	margin-bottom: 0;
 	padding: 2rem 0 3.5rem;
 	border-radius: 0;
-	background-image: url(../img/dark_pillows.jpeg);
+	background-image: url(../img/..jpeg);
 	opacity: 7!important;
 	background-size: cover;
 }
@@ -603,9 +617,11 @@ input[type=submit]:hover {
 
   @media (max-width: 767px) {
  .caption h1 {
-	font-size: 3.8rem;
+	font-size: 2.8rem;
 	letter-spacing: .3rem;
 	padding-bottom: 1rem; 
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .caption h3 {
