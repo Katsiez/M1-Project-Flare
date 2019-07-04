@@ -7,7 +7,7 @@ This is my first project to present to Code Institute. The project highlights a 
 This project is based solely on my imagination and desire to one day have such a business of my own. I toyed with the idea of the family-owned business as i grew up in a household of entrepreneurs and had my parents as inspiration. I also like the idea of supporting the local business owners and farmers therefore, I choose Canada, my home country. The business provides unique pieces that can be both passed onto future generations, but are as well minimalistic in style that they would fit into any household. 
 
 ## Demo
-Live Demo of the website will be available as soon as I figure out how to do that. Or it might not be if I don't.
+Aive Demo of the website can be found here https://katsiez.github.io/M1-Project-Flare/index.html 
 
 ## UX
 My goal in the design was to realize an interesting idea, create a website based on a small, family-owned furniture store in Canada. I imagined a father and son spending days in their workshop, creating pieces for a variety of clients. The color scheme chosen is meant to represent natural materials and bold fabrics used in furniture creation, whilst providing a minimalistic, clean-cut design. The colours chosen are mostly natural and the design is simple, so are the images used. 
